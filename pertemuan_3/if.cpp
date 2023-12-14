@@ -9,10 +9,9 @@ int main(){
     cin >> a;
 
     // kondisi dalam bentuk boolean
-    if (a == 5){
-        cout << "Benar angka 5" << endl; // true
+    if (a >= 0){
+        cout << " Adalah angka Positif" << endl; // true
     }
-
     cout << "### Program Selesai ###" << endl;
 
     return 0;
