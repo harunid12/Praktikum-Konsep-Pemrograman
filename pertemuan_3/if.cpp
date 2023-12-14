@@ -10,7 +10,7 @@ int main(){
 
     // kondisi dalam bentuk boolean
     if (a == 5){
-        cout << "Benar angka 5" << endl;
+        cout << "Benar angka 5" << endl; // true
     }
 
     cout << "### Program Selesai ###" << endl;
