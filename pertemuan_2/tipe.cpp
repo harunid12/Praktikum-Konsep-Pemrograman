@@ -21,10 +21,10 @@ int main (){
     // char nama = '1';
 
     // boolean
-    bool hasil;
-    hasil = a != b;
-    cout << hasil << endl;
+    // bool hasil;
+    // hasil = a != b;
+    // cout << hasil << endl;
 
-    // cout << numeric_limits<char>::max() << endl;
+    cout << numeric_limits<float>::max() << endl;
     return 0;
 }

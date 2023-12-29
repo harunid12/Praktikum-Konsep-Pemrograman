@@ -1,34 +1,19 @@
-// output 
-
-/*
-
-################################
-Program Pertambahan
-################################
-
-nilai_1 + nilai_2 = hasil
-
-###############################
-Program Selesai!!!
-###############################
-
-
-*/
-
-
 #include <iostream>
-
 using namespace std;
 
-int main(){
-    int a, b, hasil;
+int main() {
+    // Input IPK dan status pelanggaran etika
+    double ipk;
+    char pelanggaranEtika;
 
-    cout << "masukan angka1: ";
-    cin >> a;
-    cout << "masukan angka2: ";
-    cin >> b;
+    cout << "Masukkan IPK mahasiswa: ";
+    cin >> ipk;
 
-    hasil = a + b;
-    cout << "hasil tambah " << a << " + " << b << " = " << hasil << endl;
+    cout << "Apakah mahasiswa mendapatkan sanksi pelanggaran etika? (y/n): ";
+    cin >> pelanggaranEtika;
+
+    // Logika AND untuk menentukan kelayakan beasiswa
+    
+
     return 0;
 }
